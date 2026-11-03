@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,150 +9,263 @@
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Quicksand:wght@400;500;600&display=swap" rel="stylesheet">
 
 <style>
-body {
-    margin: 0;
-    min-height: 100vh;
-    text-align: center;
-    font-family: 'Quicksand', sans-serif;
-    color: #456b97;
-    background:
-      radial-gradient(circle, white 2px, transparent 3px)
-      0 0 / 85px 85px,
-      linear-gradient(135deg, #edf7ff, #c7def8, #eaf4ff);
+
+* {
+    box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: #52749d;
+
+    background:
+        radial-gradient(white 1.5px, transparent 2px),
+        radial-gradient(#ffffffaa 1px, transparent 2px),
+        linear-gradient(135deg, #edf7ff, #c8def7, #eaf4ff);
+
+    background-size: 65px 65px, 95px 95px, cover;
+    background-attachment: fixed;
+}
+
+/* Navigation */
 
 nav {
-    background: #b6d4f1;
-    padding: 22px 10px;
+    background: rgba(182, 212, 241, 0.75);
+    padding: 22px;
+    letter-spacing: 3px;
+    color: #527eae;
+    font-size: 14px;
 }
 
-nav a {
-    color: #426b9b;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: bold;
-    margin: 0 10px;
-}
+/* Headings */
 
-h1, h2 {
-    font-family: 'Great Vibes', cursive;
-    font-weight: normal;
-    color: #527eae;
+h1, h2, h3 {
+    font-family: 'Great Vibes', cursive;
+    font-weight: normal;
+    color: #527eae;
 }
 
 h1 {
-    font-size: 75px;
-    margin: 45px 10px 5px;
+    font-size: 85px;
+    margin: 50px 10px 5px;
 }
 
 h2 {
-    font-size: 48px;
-    margin: 10px;
+    font-size: 48px;
+    margin: 10px;
 }
+
+h3 {
+    font-size: 38px;
+    margin: 10px;
+}
+
+/* Paragraphs */
 
 p {
-    font-size: 17px;
-    line-height: 1.9;
+    font-size: 16px;
+    line-height: 1.9;
+    color: #6686aa;
+    padding: 0 10px;
 }
+
+/* Decorations */
 
 .decor {
-    color: #81a9d5;
-    font-size: 25px;
-    letter-spacing: 5px;
+    color: #83a9d2;
+    font-size: 25px;
+    letter-spacing: 8px;
+    margin: 15px;
 }
 
+.stars {
+    color: #91b5dc;
+    font-size: 22px;
+    letter-spacing: 12px;
+    margin: 25px;
+}
+
+/* Main cards */
+
 .card {
-    background: rgba(255,255,255,0.85);
-    border: 3px double #91b8e0;
-    border-radius: 25px;
-    padding: 30px;
-    width: 85%;
-    max-width: 600px;
-    margin: 30px auto;
-    box-sizing: border-box;
-    box-shadow: 0 8px 22px #8caed055;
+    background: rgba(255, 255, 255, 0.82);
+    border: 2px solid #b4d0ec;
+    border-radius: 30px;
+    padding: 35px 25px;
+    width: 85%;
+    max-width: 650px;
+    margin: 30px auto;
+
+    box-shadow: 0 8px 25px #8caed044;
 }
 
 .card::before {
-    content: "✧ ♡ ✿ ♡ ✧";
-    display: block;
-    color: #87aed7;
-    font-size: 24px;
-    margin-bottom: 12px;
+    content: "✧  ♡  ✧";
+    display: block;
+    color: #91b5dc;
+    font-size: 25px;
+    margin-bottom: 12px;
 }
 
-.button {
-    display: inline-block;
-    background: #a8c9eb;
-    color: #315d89;
-    padding: 12px 25px;
-    border-radius: 30px;
-    text-decoration: none;
-    margin-top: 12px;
+/* About section */
+
+.about {
+    padding: 20px;
 }
 
-.button:hover {
-    background: #88b5e3;
+/* Art section */
+
+.art {
+    background: rgba(230, 241, 253, 0.85);
 }
+
+/* Footer */
 
 footer {
-    padding: 30px;
-    color: #668db8;
+    padding: 35px;
+    color: #668db8;
+    font-size: 20px;
+    font-family: 'Great Vibes', cursive;
 }
+
 </style>
 </head>
 
 <body>
 
 <nav>
-    <a href="index.html">Home ♡</a>
-    <a href="about.html">About Me</a>
-    <a href="art.html">My Art</a>
+    ✧ WELCOME TO MY LITTLE CORNER OF THE WORLD ✧
 </nav>
 
 <h1>Abby Amaya</h1>
 
-<div class="decor">✧ ♡ ✿ ♡ ✧</div>
+<div class="decor">
+    ☆ ♡ ✧ ☾ ✧ ♡ ☆
+</div>
 
 <p>Artist • Psychology Student • Dreamer</p>
 
-<div class="card">
-    <h2>Welcome to My World!</h2>
-
-    <p>
-    Hello! I'm Abby, and welcome!
-    </p>
-
-    <p>
-    This is a place where I can share
-    my creativity, artwork, and
-    a little bit about myself.
-    </p>
-
-    <a class="button" href="about.html">
-        Get to Know Me ♡
-    </a>
+<div class="stars">
+    ⋆ ˚｡⋆୨♡୧⋆｡˚ ⋆
 </div>
 
+<!-- Welcome -->
+
 <div class="card">
-    <h2>My Creative Corner</h2>
 
-    <p>
-    I love creating art with charcoal
-    and watercolor. Art is one of
-    my favorite ways to express myself!
-    </p>
+    <h2>Welcome to My World!</h2>
 
-    <a class="button" href="art.html">
-        Explore My Art ✧
-    </a>
+    <p>
+        Hello! I'm Abby, and welcome to my little
+        corner of the internet!
+    </p>
+
+    <p>
+        This is a place where I can share my
+        creativity, artwork, interests, and
+        a little bit about myself.
+    </p>
+
 </div>
 
-<div class="decor">☁ ♡ ✧ ♡ ☁</div>
+<!-- About Me -->
+
+<div class="card about">
+
+    <h2>A Little About Me</h2>
+
+    <p>
+        I am an artist, psychology student,
+        and someone who loves expressing
+        herself through creativity.
+    </p>
+
+    <p>
+        I enjoy discovering new things,
+        learning about people, and finding
+        inspiration in the little things in life.
+    </p>
+
+    <div class="decor">
+        ♡ ✧ ♡
+    </div>
+
+</div>
+
+<!-- My Art -->
+
+<div class="card art">
+
+    <h2>My Creative Corner</h2>
+
+    <p>
+        Art is one of my favorite ways
+        to express myself.
+    </p>
+
+    <p>
+        I especially love working with
+        charcoal and watercolor.
+        I enjoy experimenting with different
+        textures, colors, and techniques.
+    </p>
+
+    <div class="decor">
+        ✧ 🎨 ✧
+    </div>
+
+</div>
+
+<!-- Interests -->
+
+<div class="card">
+
+    <h2>Things I Love</h2>
+
+    <p>
+        ♡ Creating art
+    </p>
+
+    <p>
+        ♡ Psychology and understanding people
+    </p>
+
+    <p>
+        ♡ Music and creativity
+    </p>
+
+    <p>
+        ♡ Dreaming and exploring new ideas
+    </p>
+
+</div>
+
+<div class="stars">
+    ☆ ⋆｡°✩ ☾ ✩°｡⋆ ☆
+</div>
+
+<h2>Thank You for Visiting!</h2>
+
+<p>
+    I hope you enjoyed getting to know me a little better.
+</p>
+
+<div class="decor">
+    ✧ ♡ ☆ ♡ ✧
+</div>
 
 <footer>
-    ♡
+    Made with love ♡ Abby Amaya
 </footer>
 
 </body>
 </html>
+
+    
+    
+    
+
+
